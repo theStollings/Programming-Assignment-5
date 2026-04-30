@@ -16,6 +16,8 @@ int main() {
 		return 1;
 	}
 
+	cout << "hello" << endl;
+
 	
 	return 0;
 }
