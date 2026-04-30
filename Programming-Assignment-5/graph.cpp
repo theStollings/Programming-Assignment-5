@@ -73,3 +73,24 @@ void Graph::printToConsole() const { // Print to console
         std::cout << std::endl;
     }
 }
+
+// Set functions
+void Graph::setEdge(int i, int j, int weight) { // Sets weight of the edge
+    if (i >= 0 && i < n && j >= 0 && j < n) { // If indices are valid
+        mat[i][j] = weight;
+    }
+}
+
+// Get functions
+int Graph::getVertexCount() const { // Number of vertices
+    return n;
+}
+int Graph::getEdge(int i, int j) const { // Weight of the edge
+    if (i >= 0 && i < n && j >= 0 && j < n) { // If indices are valid
+        return mat[i][j];
+    }
+    return false; // Invalid indices
+}
+const std::vector<std::vector<int>>& Graph::getMatrix() const { // Matrix
+    return mat;
+}
