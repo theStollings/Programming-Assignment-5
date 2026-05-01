@@ -16,6 +16,8 @@ int main() {
 		return 1;
 	}
 
+	graph->printToConsole();
+
 	
 	return 0;
 }
