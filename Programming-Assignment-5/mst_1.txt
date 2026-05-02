@@ -1,0 +1,22 @@
+Add edge 3 to 4 Weight: 2
+Add edge 4 to 2 Weight: 5
+Add edge 2 to 6 Weight: 2
+Add edge 6 to 7 Weight: 4
+Add edge 2 to 1 Weight: 5
+Add edge 4 to 8 Weight: 5
+Add edge 8 to 0 Weight: 1
+Add edge 1 to 5 Weight: 7
+Add edge 3 to 9 Weight: 7
+Number of vertices is 10
+Number of edges is 9
+Matrix is:
+0 0 0 0 0 0 0 0 1 0
+0 0 5 0 0 7 0 0 0 0
+0 5 0 0 5 0 2 0 0 0
+0 0 0 0 2 0 0 0 0 7
+0 0 5 2 0 0 0 0 5 0
+0 7 0 0 0 0 0 0 0 0
+0 0 2 0 0 0 0 4 0 0
+0 0 0 0 0 0 4 0 0 0
+1 0 0 0 5 0 0 0 0 0
+0 0 0 7 0 0 0 0 0 0
